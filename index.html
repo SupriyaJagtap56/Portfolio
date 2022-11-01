@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .rounded {
+            border-radius: 10px;
+        }
+
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+
+        }
+
+        .navbar-toggler {
+            background-color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .text-white {
+            --bs-text-opacity: 1;
+            color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+        }
+
+        .navbar-custom {
+            background-color: #2c3e50;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+        }
+
+        .navbar-toggler-icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+        }
+
+        .masthead .masthead-avatar {
+            width: 13rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+        <a class="navbar-brand" style="color: white;" href="#">START BOOTSTRAP</a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PORTFOLIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <header class="masthead bg-info text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5"
+                src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="...">
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0" style="color: white; margin-bottom: 5%;">Start Bootstrap
+            </h1>
+            <!-- Icon Divider-->
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <!--<svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> Font Awesome fontawesome.com -->
+                </div>
+                <!--<span class="fa fa-star fa-3x" style="width: 20px;margin-top: 0%; color: white;"></span>   -->
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0" style="color: white;padding: 5%;">Graphic Artist -
+                Web Designer - Illustrator</p>
+        </div>
+    </header>
+
+    <section class="px-lg-3" id="portfolio">
+        <div class="container">
+            <h1 class="text-center text-uppercase my-5">
+                <span>Portfolio</span>
+            </h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/cabin.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/cake.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/circus.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/game.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/safe.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="card-img-top" style="border-radius: 5%;" src="images/submarine.png"
+                                alt="Card image cap">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-section bg-info text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white" style="padding: 5%;">About</h2>
+            <!-- About Section Content-->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                        includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
+                        stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
+                        dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+            <!-- About Section Button-->
+            <div class="text-center mt-4" style="padding: 3%;">
+                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <!--<svg class="svg-inline--fa fa-download fa-w-16 me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><!-- <i class="fas fa-download me-2"></i> Font Awesome fontawesome.com -->
+                    Free Download!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="padding: 5%;">Contact Me
+        </h2>
+
+        <!-- Contact Section Form-->
+        <!-- <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+         * * * * * * * * * * * * * * *-->
+        <!-- * * SB Forms Contact Form * *-->
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- This form is pre-integrated with SB Forms.-->
+        <!-- To make this form functional, sign up at-->
+        <!-- https://startbootstrap.com/solution/contact-forms-->
+        <!-- to get an API token!-->
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+                <label for="validationServer03" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="validationServer03"
+                    aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+
+                </div>
+            </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3">
+                <label for="validationServer03" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="validationServer03"
+                    aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+
+                </div>
+            </div>
+            <!-- Phone number input-->
+            <div class="form-floating mb-3">
+                <label for="validationServerUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    <input type="text" class="form-control" id="validationServerUsername"
+                        aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    </div>
+                </div>
+            </div>
+            <!-- Message input-->
+            <div class="form-floating mb-3">
+                <label for="validationServer03" class="form-label">Message</label>
+                <textarea class="form-control" id="message" type="text" aria-describedby="validationServer03Feedback" placeholder="Enter your message here..."
+                    style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+                </div>
+            </div>
+
+            <div class="form-check" style="padding-top: 2%;padding-bottom: 5%;">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                    aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+            <!-- Submit Button-->
+            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
+        </form>
+    </div>
+
+
+
+    <br><br>
+    <footer class="footer text-center bg-info">
+        <div class="container">
+            <div class="row" style="padding: 5%;">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        2215 John Daniel Drive
+                        <br>
+                        Clark, MO 65243
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg
+                            class="svg-inline--fa fa-facebook-f fa-w-10 fa-fw" aria-hidden="true" focusable="false"
+                            data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 320 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                            </path>
+                        </svg><!-- <i class="fab fa-fw fa-facebook-f"></i> Font Awesome fontawesome.com --></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg
+                            class="svg-inline--fa fa-twitter fa-w-16 fa-fw" aria-hidden="true" focusable="false"
+                            data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                            </path>
+                        </svg><!-- <i class="fab fa-fw fa-twitter"></i> Font Awesome fontawesome.com --></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg
+                            class="svg-inline--fa fa-linkedin-in fa-w-14 fa-fw" aria-hidden="true" focusable="false"
+                            data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                            </path>
+                        </svg><!-- <i class="fab fa-fw fa-linkedin-in"></i> Font Awesome fontawesome.com --></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><svg
+                            class="svg-inline--fa fa-dribbble fa-w-16 fa-fw" aria-hidden="true" focusable="false"
+                            data-prefix="fab" data-icon="dribbble" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                            </path>
+                        </svg><!-- <i class="fab fa-fw fa-dribbble"></i> Font Awesome fontawesome.com --></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">
+                        Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white bg-primary">
+        <div class="container"><small>Copyright © Your Website 2021</small></div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Cake</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-5">
+                        <img src="images/cake.png" class="img-fluid" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia neque assumenda ipsam nihil, molestias magnam,
+                    recusandae quos quis inventore quisquam velit asperiores,
+                    vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
